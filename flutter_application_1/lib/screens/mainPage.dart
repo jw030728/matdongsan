@@ -3,6 +3,7 @@ import 'package:flutter_application_1/config/palette.dart';
 import 'package:flutter_application_1/screens/feedPage.dart';
 import 'alramPage.dart';
 import 'searchPage.dart';
+import 'announcement.dart';
 
 class MyWidget extends StatefulWidget {
   const MyWidget({super.key});
@@ -172,7 +173,7 @@ class _MyWidgetState extends State<MyWidget> {
                   return GestureDetector(
                     // 각 항목에 탭을 감지하는 GestureDetector 추가
                     onTap: () {
-                      // 해당 항목을 탭할 때 실행할 동작을 정의
+                      // 공지사항 페이지로 넘어가기
                       print('누르기 $index'); // 콘솔에 해당 항목이 탭되었음을 출력
                     },
 
